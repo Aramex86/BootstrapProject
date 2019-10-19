@@ -310,6 +310,7 @@ header nav
         left: 50%
         transform: translateX(-50%)
 .required
+    padding-bottom: 94px
     &_title
         color: #222222
         font-size: 38px
@@ -323,15 +324,27 @@ header nav
         margin-bottom: 24px 
         color: #1ca8c3
         font-size: 22px
-        font-weight: 400   
+        font-weight: 400
     &_list
         margin: 0
         padding: 0
-        margin-top: 21px 
-    &_item
+        margin-top: 21px
+        padding-left: 19px
+    &_item:not(:last-child)
         padding-bottom: 20px
-        & span 
-            color: #1ca8c3
-            font-weight: 300
+    &_item
+        display: flex
+        justify-content: flex-start
+        align-items: flex-start 
         & img
             margin-right: 12px
+    &_blue_text
+        color: #1ca8c3
+        font-weight: 300
+        margin-top: 19px
+        display: block        
+    &_redheading
+        color: #ff5656
+        font-size: 22px
+        font-weight: 400
+        margin-top: 62px    
