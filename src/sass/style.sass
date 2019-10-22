@@ -220,7 +220,19 @@ header nav
         font-weight: 400
         text-transform: uppercase
         text-align: center
-        line-height: 25px       
+        line-height: 25px    
+.world
+  &_label
+      margin: 0 auto
+      width: 76px
+      height: 24px
+      background-color: #ffffff
+      color: #070716
+      font-size: 11px
+      font-weight: 400
+      line-height: 25px
+      text-transform: uppercase
+      text-align: center         
         
 .title
     color: #222222
@@ -394,6 +406,39 @@ header nav
     li::before
       background: url('../icons/red_mark.png') center center/cover no-repeat
 
-
-        
-          
+.world
+  min-height: 717px
+  padding: 49px 0 49px 0
+  background: url('../img/world_bg.jpg') center center/cover no-repeat
+  &_title
+    margin-top: 32px
+    color: #ffffff
+    font-size: 38px
+    font-weight: 700
+    text-transform: uppercase
+    text-align: center
+  &_subtitle
+    margin-top: 20px
+    color: #ffffff
+    font-size: 17px
+    font-weight: 400
+    text-align: center     
+  &_bottom
+    margin-top: 486px
+    text-align: center
+  &_link
+    color: #1fbad6
+    font-family: Roboto
+    font-size: 15px
+    font-weight: 400
+    line-height: 68px
+    text-transform: uppercase
+    text-decoration: none
+    display: inline-block
+    transition: .3s all
+    &:hover
+      text-decoration: none
+      color: $main-color
+      transform: translateY(-2px)
+      font-size: 16px
+      
