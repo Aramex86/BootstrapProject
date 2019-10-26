@@ -30,7 +30,10 @@ header nav
     border-right: 2px dotted #000000
     padding-right: 30px
     &:last-child
-       border-right: none 
+       border-right: none
+    & a
+      text-decoration: none
+      color: #ffffff    
 
 .subheader
   position: absolute
@@ -38,8 +41,6 @@ header nav
   height: 84px
   background-color: rgba(0, 0, 0, 0.6)
   top: 50px
-  
-
   &_logo
     display: block
     max-width: 100%
@@ -51,19 +52,19 @@ header nav
     color: #ffffff
     font-size: 13px
     font-weight: 400
-
   &_call
     color: #ffffff
     margin-top: 22px
     font-size: 12px
     font-weight: 300
-
-  &_phone
+  &_phone 
     color: #ffffff
     font-size: 22px
     font-weight: 400
     text-transform: uppercase
-
+    &:hover
+      text-decoration: none
+      color: #ffffff
   &_btn
     margin-top: 19px
     width: 172px
